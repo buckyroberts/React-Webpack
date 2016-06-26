@@ -36,8 +36,8 @@ module.exports = {
     //      output: {
     //          comments: false,
     //      }
-    // 
-    // ],
+    //
+    ],
     output: {
         path: 'src',
         filename: 'js/bundle.min.js'
