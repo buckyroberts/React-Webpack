@@ -4,7 +4,8 @@
   "description": "Boilerplate for React webpack build.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "react-dom": "^15.1.0",
     "sass-loader": "^3.2.2",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }

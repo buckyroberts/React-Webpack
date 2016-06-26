@@ -3,6 +3,11 @@ var webpack = require('webpack');
 module.exports = {
     
     entry: './dev/js/main.js',
+    devServer: {
+        inline: true,
+        contentBase: './src',
+        port: 3000
+    },
     module: {
         loaders : [
             {
