@@ -1,6 +1,6 @@
-# React Webpack
+![](http://i.imgur.com/PVELbIQ.png)
 
-Boilerplate for React webpack build.
+Boilerplate for React/Sass/webpack build.
 
 ## Getting Started
 
@@ -18,3 +18,5 @@ Start the development server (changes will now update live in browser)
 ```
 > npm run start
 ```
+
+To view your project, go to: http://localhost:3000/
