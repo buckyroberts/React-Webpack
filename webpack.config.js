@@ -29,14 +29,14 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     plugins: [
       // Optional: Minify you bundle code.
-    //  new webpack.optimize.UglifyJsPlugin({
-    //      compress: {
-    //          warnings: false,
-    //      },
-    //      output: {
-    //          comments: false,
-    //      }
-    //
+     new webpack.optimize.UglifyJsPlugin({
+         compress: {
+             warnings: false,
+         },
+         output: {
+             comments: false,
+         }
+       })
     ],
     output: {
         path: 'src',
