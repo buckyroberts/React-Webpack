@@ -6,15 +6,15 @@ Boilerplate for React webpack build.
 
 To get started, first install all the necessary dependencies.
 ```
-npm install
+> npm install
 ```
 
 Run an initial webpack build
 ```
-npm run dev
+> npm run dev
 ```
 
 Start the development server (changes will now update live in browser)
 ```
-npm run start
+> npm run start
 ```
